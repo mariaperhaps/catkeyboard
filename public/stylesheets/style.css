@@ -2,7 +2,7 @@ body {
   background-image: url(/images/evil_cat.jpg);
   background-repeat-x: no-repeat;
   background-repeat-y: no-repeat;
-  background-size: 1300px;
+  background-size: 100%;
 }
 
 div.container {
