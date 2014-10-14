@@ -1,4 +1,3 @@
-
 console.log("Linked.")
 
  window.addEventListener('load', function(){
@@ -62,37 +61,8 @@ function opacityChange (div){
 
 });
 
-
-
-// function stepOne (){
-//   document.getElementById("step_01").play();
-// }
-
-// function stepTwo (){
-//   document.getElementById("step_02").play();
-// }
-
-// function stepThree (){
-//   document.getElementById("step_03").play();
-// }
-
-// function stepFour (){
-//   document.getElementById("step_04").play();
-// }
-
-// function stepFive (){
-//   document.getElementById("step_05").play();
-// }
-
-// function stepSix (){
-//   document.getElementById("step_06").play();
-// }
-
-// function stepSeven (){
-//   document.getElementById("step_07").play();
-// }
-
-// function stepEight (){
-//   document.getElementById("step_08").play();
-// }
+function overlay() {
+  el = document.getElementById("overlay");
+  el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
+}
 
